@@ -1,0 +1,13 @@
+{
+  "name": "chaturbate-affiliate-site",
+  "version": "1.0.0",
+  "description": "SEO-optimized Chaturbate affiliate website with individual model pages",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "generate": "node ../chaturbate-site-generator.js",
+    "vercel-build": "echo 'Static site, no build needed'"
+  },
+  "keywords": ["chaturbate", "affiliate", "seo", "webcam", "adult"],
+  "author": "Neo",
+  "license": "MIT"
+}
